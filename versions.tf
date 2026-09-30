@@ -4,7 +4,7 @@ terraform {
   # This bucket is in us-east-1. It stores state independently of the region
   # where the AWS infrastructure is deployed.
   backend "s3" {
-    bucket       = "bucket-backend-terraform-313932316713-us-east-1"
+    bucket       = "terraform-demo-531928"
     key          = "network/terraform.tfstate"
     region       = "us-east-1"
     encrypt      = true
