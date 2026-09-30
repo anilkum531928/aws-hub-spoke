@@ -86,7 +86,7 @@ jobs:
             exit 1
           fi
           if [[ "${AWS_ROLE_ARN}" != arn:aws:iam::*:role/* ]]; then
-            echo "AWS_ROLE_ARN must contain the full IAM role ARN, for example arn:aws:iam::313932316713:role/github-actions-aws-hub-spoke-terraform."
+            echo "AWS_ROLE_ARN must contain the full IAM role ARN, for example arn:aws:iam::755370915659:role/github-actions-aws-hub-spoke-terraform."
             exit 1
           fi
 
